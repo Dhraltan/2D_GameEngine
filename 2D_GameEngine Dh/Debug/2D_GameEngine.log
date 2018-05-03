@@ -1,0 +1,14 @@
+﻿  Game.cpp
+c:\users\gheorghe\source\repos\2d_gameengine\2d_gameengine - textures\entitycomponentsystem.h(74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  c:\users\gheorghe\source\repos\2d_gameengine\2d_gameengine - textures\game.cpp(66): note: see reference to function template instantiation 'T &Entity::addComponent<TileComponent,float,float,int,int,int>(float &&,float &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              T=TileComponent
+          ]
+c:\users\gheorghe\source\repos\2d_gameengine\2d_gameengine - textures\entitycomponentsystem.h(74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  c:\users\gheorghe\source\repos\2d_gameengine\2d_gameengine - textures\game.cpp(74): note: see reference to function template instantiation 'T &Entity::addComponent<TransformComponent,int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+  2D_GameEngine.vcxproj -> C:\Users\Gheorghe\source\repos\2D_GameEngine\2D_GameEngine - Textures\Debug\2D_GameEngine.exe
